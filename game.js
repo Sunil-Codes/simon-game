@@ -54,7 +54,11 @@ function checkAnswer(currentLevel) {
 }
 
 
-
+function startOver(){
+    gamePattern = []
+    started = false;
+    level = 0
+}
 
 
 
