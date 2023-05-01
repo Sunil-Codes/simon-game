@@ -102,7 +102,7 @@ body{
 
 } 
 
-@media (max-width:381px){
+@media (min-width:366px) and (max-width:400px){
 
   .pbtn{
     width: 130px;
