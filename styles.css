@@ -103,11 +103,11 @@ body{
 } 
 
 
-@media (min-width:366px) and (max-width:400px){
+@media (min-width:360px) and (max-width:400px){
 
   .pbtn{
-    width: 100px;
-    height:100px
+    width: 120px;
+    height:120px
   }
   .pcontainer {
     display: block;
@@ -116,7 +116,7 @@ body{
     position: absolute;
   }
   #footer{
-    margin-top: 6%;
+    margin-top: 20%;
   }
   #startgame, #Reset{
 margin-top: 4%;
