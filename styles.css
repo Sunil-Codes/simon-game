@@ -103,11 +103,11 @@ body{
 } 
 
 
-@media (min-width:360px) and (max-width:400px){
+@media (min-width:366px) and (max-width:400px){
 
   .pbtn{
-    width: 120px;
-    height:120px
+    width: 130px;
+    height:130px
   }
   .pcontainer {
     display: block;
@@ -116,7 +116,7 @@ body{
     position: absolute;
   }
   #footer{
-    margin-top: 20%;
+    margin-top: 6%;
   }
   #startgame, #Reset{
 margin-top: 4%;
@@ -124,6 +124,34 @@ margin-top: 4%;
 
  
   }
+
+  @media (min-width:320px) and (max-width:365px){
+
+    .pbtn{
+      width: 105px;
+      height:105px
+    }
+    .pcontainer {
+      display: block;
+      width: 100%;
+      margin: 10% 0;
+      position: absolute;
+    }
+    #footer{
+      margin-top: 50%;
+    }
+    #startgame, #Reset{
+  margin-top: 10%;
+    }
+    #level-title {
+      font-family: 'Press Start 2P', cursive;
+      font-size: 1rem;
+      margin: 3% 0 3%;
+      color: #FEF2BF;
+    }
+  
+   
+    }
 
 
 
